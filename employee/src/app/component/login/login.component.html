@@ -1,7 +1,6 @@
-  <form (ngSubmit)="registerUser()">
+<p>login works!</p>
+<form (ngSubmit)="loginUser()">
     <input type="text" name="username" [(ngModel)]="formData.username" required>
-    <input type="email" name="email" [(ngModel)]="formData.email" required>
     <input type="password" name="password" [(ngModel)]="formData.password" required>
     <button type="submit">Register</button>
   </form>
-  

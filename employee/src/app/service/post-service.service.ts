@@ -17,4 +17,11 @@ export class PostServiceService {
     return this.httpClient.post<any>(`http://localhost:8522/api/auth/signup`, data);
   }
 
+  registerUser(formData: any): Observable<any> {
+    return this.httpClient.post<any>('this.apiUrl', formData);
+  }
+
+  
+
+
 }
