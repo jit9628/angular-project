@@ -9,18 +9,18 @@ const routes: Routes = [
 
   {
     path:'employees',
-    component:LoginComponent
+    component:EmployeeListComponent
   },
   {
-    path:'home',
-    component:LoginComponent
+    path:'signup',
+    component:PostEmployeeComponent
   },
   {
     path:'postdata',
-    component:LoginComponent
+    component:PostEmployeeComponent
   },
   {
-    path:'auth',
+    path:'login',
     component:LoginComponent
   }
 ];

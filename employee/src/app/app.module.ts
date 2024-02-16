@@ -9,13 +9,15 @@ import { PostServiceService } from './service/post-service.service';
 import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './component/login/login.component';
 import { LoginService } from './service/authenticate/login.service';
+import { HeaderComponent } from './component/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeListComponent,
     PostEmployeeComponent,
-    LoginComponent
+    LoginComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
