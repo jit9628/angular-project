@@ -1,4 +1,12 @@
 # MyApp
+## Angular Version 17 letest 
+`Node version 18.18.1`
+`npm version 10.4.0`
+ after download the project use command  `npm install` 
+ `npm install -g npm@10.4.0 and npm node install -g @node18.18.1`
+ 
+ 
+ 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
 
